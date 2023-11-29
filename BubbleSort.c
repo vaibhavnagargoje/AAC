@@ -33,7 +33,7 @@ int main(){
     int i=0;
     int arr[]={30,53,3,3,22,67,2,89,98};
     int len = sizeof(arr)/sizeof(arr[0]);
-    BubbleSort(&arr,len);
+    BubbleSort(arr,len);
     for(i=0;i<len;i++){
         	printf("%d ",arr[i]);
    		 }
